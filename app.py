@@ -8,6 +8,6 @@ app = MultiApp()
 app.add_app("Home", home.app)
 app.add_app("Data Stats", data_stats.app)
 app.add_app("Artist",app_artist.app)
-app.add_app("Buyer",app_buyer.add)
+app.add_app("Buyer",app_buyer.app)
 # The main app
 app.run()
